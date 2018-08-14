@@ -1,0 +1,137 @@
+﻿<repository
+id="cea88d9d-f875-4950-850c-af261fa68f35"
+name="DesktopDemoRepository"
+rxversion="8.2">
+	<codegen
+	classname="DesktopDemoRepository"
+	namespace="DesktopDemo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="40d96d78-483a-4872-a544-c44443639ee7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="40a3c487-18cb-407a-bf25-6161df0a8849"
+		isrooted="True"
+		name="FormVipApplication"
+		refimgid="29f23cac-f23d-4025-89ac-2be44d9d13d8"
+		refpath="/form[@name='formVipApplication']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="98f0380b-f6ad-4d08-8402-ebad7d64b069"
+			name="VIPDatabase"
+			refimgid="8ede28de-f3d6-4ba7-a364-6f2465499947"
+			refpath="/form[@name='formVipApplication']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f1a68154-94d0-44c2-9d3a-a08868923bea"
+			name="FirstName"
+			refimgid="434fe62f-f273-4025-955e-b7231d25b410"
+			refpath="/form[@name='formVipApplication']/text[@name='tbFirstName']/text[@accessiblename='First Name:']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/?/?/text[@accessiblename='First Name:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9fffe305-456c-4acf-9ff1-abc709afc635"
+			name="LastName"
+			refimgid="6be5b46c-d22b-4c53-a481-9b80bf096dfc"
+			refpath="/form[@name='formVipApplication']/text[@name='tbLastName']/text[@accessiblename='Last Name:']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/?/?/text[@accessiblename='Last Name:']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="20325ad0-c19c-4475-b1d2-e97c2c58ba85"
+			name="Music"
+			refimgid="8e796aac-cf78-4ff4-b009-337791a99285"
+			refpath="/form[@name='formVipApplication']/list/list/listitem[@accessiblename='Music']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']//listitem[@accessiblename='Music']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="729abdf0-5020-4443-926e-074aeb88e1e9"
+			name="RbMale"
+			refimgid="6250cb52-584f-4b02-92e6-9e2158a960f3"
+			refpath="/form[@name='formVipApplication']/container/radiobutton[@name='rbMale']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/?/?/radiobutton[@name='rbMale']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="9c9860cf-cb5d-4260-94fb-dd009bb3b555"
+			name="BtAdd"
+			refimgid="95ee8144-96cf-4cb9-a56e-068ebdb4ff88"
+			refpath="/form[@name='formVipApplication']/button[@name='btAdd']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/button[@name='btAdd']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="e14541ae-ef69-4f3d-ac2b-ecff2b9b5634"
+			name="BtClear"
+			refimgid="ee2d58a3-c76b-47fb-b2ca-1999959cdefc"
+			refpath="/form[@name='formVipApplication']/button[@name='btClear']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/button[@name='btClear']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="e0a9772c-2a37-4569-ba35-00f5efb3a20d"
+			name="Close"
+			refimgid="71e5c31c-a2bc-4acd-a5f9-7b21fd2ddee8"
+			refpath="/form[@name='formVipApplication']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="4fccbef9-60c2-4f9b-b055-bc3a0778775c"
+			name="VIPCount1"
+			refimgid="7eafb205-48a7-4e75-ba2c-820713e468fd"
+			searchtimeout="30000ms">
+				/form[@name='formVipApplication']/?/?/text[@accessiblename~'VIP count:']
+			</item>
+			<basepath>
+				/form[@name='formVipApplication']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
