@@ -1214,36 +1214,21 @@ rxversion="8.2">
   ],
   &quot;mobile.android.remote&quot;: [
     {
-      &quot;Id&quot;: &quot;4ada2822-9fae-4c4e-af22-eea099ac6dab&quot;,
+      &quot;Id&quot;: &quot;d3b3ca2c-e9b4-4683-8e77-42b9de79dcc9&quot;,
       &quot;ControlFlags&quot;: 0,
       &quot;CoreData&quot;: {},
       &quot;PluginData&quot;: {
         &quot;Platform&quot;: &quot;Android&quot;,
-        &quot;ConnectionType&quot;: &quot;WLAN&quot;
-      },
-      &quot;MetaData&quot;: {},
-      &quot;Description&quot;: &quot;&quot;,
-      &quot;DisplayName&quot;: &quot;Samsung&quot;,
-      &quot;Url&quot;: &quot;10.0.0.131&quot;,
-      &quot;Tags&quot;: []
-    }
-  ],
-  &quot;mobile.ios.remote&quot;: [
-    {
-      &quot;Id&quot;: &quot;2b698f36-f6e8-4396-b717-06c20d50e258&quot;,
-      &quot;ControlFlags&quot;: 0,
-      &quot;CoreData&quot;: {},
-      &quot;PluginData&quot;: {
-        &quot;Platform&quot;: &quot;Ios&quot;,
         &quot;ConnectionType&quot;: &quot;USB&quot;
       },
       &quot;MetaData&quot;: {},
       &quot;Description&quot;: &quot;&quot;,
-      &quot;DisplayName&quot;: &quot;iPhone6&quot;,
-      &quot;Url&quot;: &quot;f6e7da3b9a6ac1a38913c55ed4100aff8e7550a6&quot;,
+      &quot;DisplayName&quot;: &quot;USB-7287cc3c&quot;,
+      &quot;Url&quot;: &quot;7287cc3c&quot;,
       &quot;Tags&quot;: []
     }
-  ]
+  ],
+  &quot;mobile.ios.remote&quot;: []
 }]]&gt;
 	</Endpoints.Data>
 	<TestCase.Retry.Count>
@@ -1400,6 +1385,9 @@ rxversion="8.2">
 	<plugin.cef.processblacklist>
 		spotify;chrome;
 	</plugin.cef.processblacklist>
+	<plugin.cef.forcehwndrectangle>
+		False
+	</plugin.cef.forcehwndrectangle>
 	<plugin.cef.wpffulltypewhitelist>
 	</plugin.cef.wpffulltypewhitelist>
 	<plugin.cef.enabledebugcapability>
