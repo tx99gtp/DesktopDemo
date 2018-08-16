@@ -45,12 +45,6 @@ rxversion="8.2">
 			id="a32d104d-d554-4856-b48a-a0e8051061bf"
 			name="TestCase">
 			</testcase>
-			<testmodule
-			id="b32e00d4-35cb-4f92-a1fe-7b91362f38cf"
-			name="ValVIP"
-			ref="a13ca8bd-90b1-4042-b93f-242f07a5c362"
-			type="Recording">
-			</testmodule>
 			<teardown
 			id="b84dbc02-8344-403a-8ea2-85259114c4e9"
 			name="teardown">
@@ -73,10 +67,6 @@ rxversion="8.2">
 						<testmodule
 						id="5173f471-7265-4202-8e1c-6f5babb1c5a4"
 						name="AddVIP">
-						</testmodule>
-						<testmodule
-						id="b32e00d4-35cb-4f92-a1fe-7b91362f38cf"
-						name="ValVIP">
 						</testmodule>
 						<teardown
 						id="b84dbc02-8344-403a-8ea2-85259114c4e9"
