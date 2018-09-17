@@ -10,6 +10,12 @@ rxversion="8.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="51659eb4-3f80-42b9-948a-10b2fbf9ad93"
+			name="ValVIP"
+			ref="a13ca8bd-90b1-4042-b93f-242f07a5c362"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="5173f471-7265-4202-8e1c-6f5babb1c5a4"
 			name="AddVIP"
 			ref="9f59eab2-3e53-4d62-b02b-2e4f5aeb23ab"
@@ -67,6 +73,10 @@ rxversion="8.2">
 						<testmodule
 						id="5173f471-7265-4202-8e1c-6f5babb1c5a4"
 						name="AddVIP">
+						</testmodule>
+						<testmodule
+						id="51659eb4-3f80-42b9-948a-10b2fbf9ad93"
+						name="ValVIP">
 						</testmodule>
 						<teardown
 						id="b84dbc02-8344-403a-8ea2-85259114c4e9"
