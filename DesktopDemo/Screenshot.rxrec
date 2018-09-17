@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="01ea1a91-dd2c-462d-ba22-e419ce7741b5"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Screenshot
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Screenshot"
+	namespace="DesktopDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="19f2f4fb-3ec6-48c2-8e2d-ad1ce0bfc080">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="40a3c487-18cb-407a-bf25-6161df0a8849"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='formVipApplication']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="cea88d9d-f875-4950-850c-af261fa68f35"
+	name="DesktopDemoRepository"
+	relativepath="DesktopDemoRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="DesktopDemoRepository"
+		namespace="DesktopDemo">
+		</codegen>
+		<rootfolder
+		id="40d96d78-483a-4872-a544-c44443639ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Screenshot.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
